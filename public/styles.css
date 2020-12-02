@@ -1,0 +1,81 @@
+* {
+    color: black;
+}
+
+.container {
+    margin: 3% auto auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.h1 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+form {
+    margin: 0 auto 2.5rem;
+}
+
+.container h1 {
+    font-weight: 400;
+    font-size: 4.5em;
+}
+
+.container .current-temp {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.location {
+    margin: 0 auto;
+}
+
+.bg {
+    background-image: radial-gradient(circle, rgba(255,255,255,0) 45%, rgba(0,0,0,1) 150%),
+        url("/img/bg.jpg");
+}
+
+.radio {
+    margin: 0px 25% 10px;
+}
+
+.div-con {
+    text-align: center;
+}
+
+.div-con img {
+    box-shadow: 4px 4px 6px #888888;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.contain-1 {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+
+.card-margin {
+    margin: 5px 0;
+}
+
+.contain-1 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 10px #888888;
+    background:linear-gradient(135deg, #b1b5ba 0%,#5d6874 100%);
+    transition: all 1s;
+}
+
+.contain-1:hover {
+    transform: scale(1.02);
+}
+
+@media only screen and (max-width: 480px) {
+    .contain-1 {
+        width: 90%;
+        transition: all 1s;
+        transform: scale(1.02);
+    }
+}
+
